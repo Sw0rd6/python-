@@ -5,8 +5,6 @@
 '''
 设i为要找的数，
 '''
-
-
 def fun():
 	l = []
 	if True:
@@ -21,8 +19,7 @@ def fun():
 	print(l)
 	for i in range(1,len(l)):
 		if l[i] - l[i-1] == 2:
-			print("%d,%d是孪生素数"%(l[i],l[i+1]))
-			
+			print("%d,%d是孪生素数"%(l[i],l[i+1]))			
 fun()
 
 
