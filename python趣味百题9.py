@@ -4,11 +4,8 @@
 '''
 思路：
 98789 -> 98789
-
-def fun(n):
-	
+def fun(n):	
 '''
-
 def fun(n):
 	ls = []
 	while n > 0:
