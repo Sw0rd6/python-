@@ -7,14 +7,11 @@ def fun(n):
 	c = n % 10
 	if a ** 3 + b ** 3 + c ** 3 == n:
 		print(n)
-
 for i in range(100,1000):
 	fun(i)
-
 e=[1,3,5,7,9]
 print([x ** 3 for x in e])
 print(sum([x ** 3 for x in e]))
-
 #以上用到列表解析：
 '''
 a=[1,3,5,7,9]
