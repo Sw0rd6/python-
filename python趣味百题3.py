@@ -34,7 +34,6 @@ def NotRepeat():
 					print(a,b,c)
 					count += 1
 	print(count)
-
 NotRepeat()
 
 
